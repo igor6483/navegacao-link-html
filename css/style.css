@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 header {
-    display: flex;
+ display: flex;
     gap: 70%;
     padding-bottom: 0.6%;
     background-color: rgb(63, 82, 255);
@@ -27,9 +27,93 @@ header {
         text-decoration: none;
         color: rgb(255, 255, 255);
     }
+ }
 
-}
-    #inicio{
+  #inicio{
         background-color: rgb(218, 255, 6);
     }
+
 }
+ #intro{
+    background-color: rgb(42, 170, 255);
+    gap:30px;
+
+     #info{
+        background-color: rgb(74, 74, 201);
+        padding:5%;
+        border-radius: 30px;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    #imagem img{
+        border-radius: 30px;
+    }
+}
+   
+
+#final{
+    background-color: rgb(42, 170, 255);
+    padding: 5%;
+    display:flex;
+    gap:10%;
+    a{
+        color: black;
+    }
+    #expec{
+        background-color: rgb(156, 214, 253);
+        text-align: center;
+        align-content: center;
+        border-radius: 30px;
+        padding:1%;
+    }
+    #roll img{
+        border-radius: 30px;
+    }
+}
+
+#dados{
+    background-color: rgb(42, 170, 255);
+    text-align: center;
+    padding: 2%;
+    padding-top: 5%;
+    
+
+    #prim{
+        background-color: rgb(51, 248, 255);
+        font-size: larger;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        gap: 50%;
+        margin:1%;
+        
+    }
+    
+    #segun{
+        background-color: rgb(51, 248, 255);
+        font-size: larger;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        gap:32%;
+    }
+   
+    #prim img{
+    border-radius: 30px;
+   }
+   
+   #segun img{
+    border-radius: 30px;
+   }
+
+}
+
+footer{
+    background-color: rgb(135, 135, 240);
+}
+

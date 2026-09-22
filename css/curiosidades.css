@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+ display: flex;
+    gap: 70%;
+    padding-bottom: 0.6%;
+    background-color: rgb(63, 82, 255);
+
+    section {
+        display: flex;
+        gap: 30%;
+        padding: 0.9%;
+ }
+
+
+
+
+     article{
+    background-color: rgb(0, 0, 0);
+    border-radius: 15%;
+    width: 100%;
+    height: 100%;
+    a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+ }
+
+  #curiosidades{
+        background-color: rgb(218, 255, 6);
+    }
+}
+
+#comeco{
+    padding:5%;
+    background-color: rgb(196, 245, 245);
+    #instru{
+    background-color: rgb(134, 203, 250);
+    display:flex;
+    border-radius: 30px;
+    align-items: center;
+    gap:20%;
+    
+}
+}
+
+#curi{
+    background-color: rgb(196, 245, 245);
+    display:flex;
+    
+    #imagem{
+        width: 30%;
+    }
+    #imagem img{
+        width: 100%;
+    }
+    #enum{
+        background-color: rgb(154, 154, 255);
+        border-radius: 30%;
+        width: 70%;
+        text-align: center;
+        align-content: center;
+        font-size: xx-large;
+    }
+    
+}
+
+footer{
+    background-color: rgb(77, 133, 165);
+}

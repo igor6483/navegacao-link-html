@@ -38,6 +38,7 @@ header {
     gap: 3%;
     display: flex;
     flex-wrap: wrap;
+    background-color: rgb(164, 214, 255);
 
  }
 
